@@ -12,10 +12,10 @@
     "noImplicitReturns": true,
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
-    
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "typeRoots": [
       "./node_modules/@types",
+      "./src",
       "./typings"
     ],
     "esModuleInterop": true
@@ -25,6 +25,6 @@
     "dist"
   ],
   "include": [
-    "./src"
+    "src"
   ]
 }
