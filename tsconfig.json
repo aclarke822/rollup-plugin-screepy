@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "target": "ES2015",
+    "outDir": "dist",
+    "baseUrl": "src/",
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "declaration": true,
+    "moduleResolution": "Node",
+    "typeRoots": ["./node_modules/@types","./typings"],
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": ["src"]
+}

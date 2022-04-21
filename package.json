@@ -1,0 +1,45 @@
+{
+  "name": "rollup-plugin-screeps",
+  "description": "Rollup Plugin for Screeps",
+  "license": "MIT",
+  "author": "Forked from Adam Laycock (Arcath), fork by Austin Clarke (aclarke822)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aclarke822/rollup-plugin-screeps"
+  },
+  "version": "3.0.0",
+  "main": "dist/index.js",
+  "module": "dist/es/index.js",
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "lint-and-fix": "eslint --fix  \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "prepublish": "rollup -c",
+    "test": "mocha -r esm -r ts-node/register tests/**/*.spec.ts"
+  },
+  "dependencies": {
+    "git-rev-sync": "^3.x",
+    "screeps-api": "^1.x"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.x",
+    "@types/chai": "^4.x",
+    "@types/mocha": "^9.x",
+    "@types/node": "^17.x",
+    "@typescript-eslint/eslint-plugin": "^5.x",
+    "@typescript-eslint/parser": "^5.x",
+    "chai": "^4.x",
+    "eslint": "^8.x",
+    "eslint-plugin-no-loops": "^0.x",
+    "esm": "^3.x",
+    "mocha": "^9.x",
+    "rollup": "^2.x",
+    "rollup-plugin-copy": "^3.x",
+    "rollup-plugin-delete": "^2.x",
+    "ts-node": "^10.x",
+    "typescript": "^4.x"
+  },
+  "keywords": [
+    "rollup",
+    "screeps"
+  ]
+}
