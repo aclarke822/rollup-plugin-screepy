@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "module": "ES2015",
-    "target": "ES2015",
-    "outDir": "dist",
-    "baseUrl": "src/",
-    "rootDir": "src",
-    "sourceMap": true,
+    "module": "ESNEXT",
+    "target": "ESNEXT",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./src",
     "strict": true,
     "experimentalDecorators": true,
     "noImplicitReturns": true,
@@ -13,12 +12,17 @@
     "allowUnreachableCode": false,
     "declaration": true,
     "moduleResolution": "Node",
-    "typeRoots": ["./node_modules/@types","./typings"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ],
     "esModuleInterop": true
   },
   "exclude": [
     "node_modules",
     "dist"
   ],
-  "include": ["src"]
+  "include": [
+    "./src"
+  ]
 }

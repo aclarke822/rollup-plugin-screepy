@@ -1,10 +1,10 @@
 {
     "extends": "../tsconfig.json",
     "compilerOptions": {
-        "baseUrl": "./fixtures/main.ts",
+        "baseUrl": "./fixtures",
         "outDir": "./dist",
         "rootDir": "./",
-        "typeRoots": ["./node_modules/@types","./src"],
+        "typeRoots": ["./node_modules/@types","./src", ".typings"],
         "declaration": false
     },
     "exclude": ["node_modules","dist"],

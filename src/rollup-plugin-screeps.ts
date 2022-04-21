@@ -1,6 +1,6 @@
 import { ScreepsAPI } from 'screeps-api';
 import { renameSync, readFileSync, readdirSync } from 'fs';
-import * as git from 'git-rev-sync';
+//import * as git from 'git-rev-sync';
 import { dirname, extname, join } from 'path';
 import { Plugin, OutputOptions, OutputBundle } from 'rollup';
 
@@ -139,9 +139,10 @@ export function getFileList(outputFile: string) {
 
 export function getBranchName(branch: string) {
   if (branch === 'auto') {
-    return git.branch()
+    //return git.branch()
+    return branch;
   } else {
-    return branch
+    return branch;
   }
 }
 

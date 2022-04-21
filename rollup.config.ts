@@ -6,7 +6,7 @@ export default {
   input: "./src/index.ts",
   output: [
     {
-      file: pkg.main,
+      file: pkg.exports,
       format: 'cjs',
       sourcemap: false
     },
