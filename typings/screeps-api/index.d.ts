@@ -1,3 +1,3 @@
 declare module 'screeps-api' {
-    const ScreepsAPI: any
+    const ScreepsAPI: any;
 }

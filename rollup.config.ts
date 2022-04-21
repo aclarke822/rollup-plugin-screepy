@@ -6,11 +6,13 @@ export default {
   input: "./src/index.ts",
   output: [
     {
+      exports: 'named',
       file: pkg.exports,
       format: 'cjs',
       sourcemap: false
     },
     {
+      exports: 'named',
       file: pkg.module,
       format: 'es',
       sourcemap: false
@@ -22,5 +24,5 @@ export default {
       tsconfig: './tsconfig.json'
     })
   ],
-  external: ["screeps-api", "git-rev-sync", "fs", "path"]
+  external: ["screeps-api", "git-rev-sync", "fs", "path", "url"]
 };

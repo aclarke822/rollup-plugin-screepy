@@ -1,3 +1,3 @@
-import {input} from './input.js'
+import {input} from './input.js';
 
-console.log(input('hello'))
+console.log(input('hello'));

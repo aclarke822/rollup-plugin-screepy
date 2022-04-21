@@ -1,4 +1,8 @@
 {
+  "env": {
+    "node": true,
+    "es2022": true
+  },
   "root": true,
   "parser": "@typescript-eslint/parser",
   "plugins": [
@@ -12,7 +16,8 @@
   ],
   "rules": {
     "no-console": 0,
-    "no-loops/no-loops": 2
+    "no-loops/no-loops": 2,
+    "semi": 1
   },
   "ignorePatterns": [
     "**/dist/**",
