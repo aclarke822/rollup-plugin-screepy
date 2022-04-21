@@ -5,6 +5,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "baseUrl": "./src",
+    "declarationDir": "./",
     "strict": true,
     "experimentalDecorators": true,
     "noImplicitReturns": true,

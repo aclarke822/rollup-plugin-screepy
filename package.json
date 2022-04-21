@@ -1,17 +1,17 @@
 {
   "name": "rollup-plugin-screepy",
-  "description": "Rollup Plugin for Screeps",
+  "description": "Rollup Plugin for Screeps, but Creepier",
   "license": "MIT",
   "author": "Forked from Adam Laycock (Arcath), fork by Austin Clarke (aclarke822)",
   "repository": {
     "type": "git",
     "url": "https://github.com/aclarke822/rollup-plugin-screeps"
   },
-  "version": "3.0.2",
-  "exports": "./dist/index.js",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "version": "3.0.4",
+  "exports": "./dist/index.cjs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "type": "module",
   "files": [
     "/dist"

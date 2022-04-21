@@ -1,9 +1,10 @@
 # Rollup Screeps Plugin
-
+Forked and renamed from:
+https://github.com/Arcath/rollup-plugin-screeps
 ## Install
 
 ```
-[]
+rollup-plugin-screepy
 ```
 
 ## Usage
@@ -11,7 +12,7 @@
 In `rollup.config.js`
 
 ```js
-import screeps from "[]";
+import screeps from "rollup-plugin-screepy";
 
 ...
 

@@ -9,7 +9,8 @@ export default {
       exports: 'named',
       file: pkg.exports,
       format: 'cjs',
-      sourcemap: false
+      sourcemap: false,
+      intro: '//' + pkg.name + ':' + pkg.version
     },
     {
       exports: 'named',
