@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-screeps",
+  "name": "rollup-plugin-screepy",
   "description": "Rollup Plugin for Screeps",
   "license": "MIT",
   "author": "Forked from Adam Laycock (Arcath), fork by Austin Clarke (aclarke822)",
