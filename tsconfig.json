@@ -5,13 +5,14 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "baseUrl": "./src",
+    "declaration": true,
     "declarationDir": "./",
     "strict": true,
     "experimentalDecorators": true,
     "noImplicitReturns": true,
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
-    "declaration": true,
+    
     "moduleResolution": "Node",
     "typeRoots": [
       "./node_modules/@types",
