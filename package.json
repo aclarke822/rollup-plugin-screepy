@@ -8,9 +8,12 @@
     "url": "https://github.com/aclarke822/rollup-plugin-screeps"
   },
   "version": "3.0.0",
-  "exports": "./dist/index.js",
-  "module": "./dist/es/index.js",
+  "exports": "./dist/cjs/index.js",
+  "module": "./dist/index.js",
   "type": "module",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "compile": "tsc --declaration",
     "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\" \"typings/**/*.ts\"",
