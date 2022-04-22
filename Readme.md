@@ -4,7 +4,7 @@ https://github.com/Arcath/rollup-plugin-screeps
 ## Install
 
 ```
-rollup-plugin-screepy
+npm install --save-dev rollup-plugin-screepy
 ```
 
 ## Usage
