@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/aclarke822/rollup-plugin-screeps"
   },
-  "version": "3.0.5",
+  "version": "3.0.6",
   "exports": "./dist/index.cjs",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
